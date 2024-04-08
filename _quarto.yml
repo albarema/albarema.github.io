@@ -1,0 +1,29 @@
+project:
+  type: website
+
+website:
+  title: 'Alba Refoyo Martinez'
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+#      - href: contact/contact.qmd
+#        text: Contact
+
+    right: 
+      - icon: github
+        href: https://github.com/hds-sandbox
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/company/ucph-heads
+        aria-label: LinkedIn
+      - icon: twitter
+        href: https://twitter.com/ucph_heads
+        aria-label: Twitter   
+
+format:
+  html:
+    theme: 
+      light: [materia, css/materialight.scss]
+      dark: darkly
+    toc: true
