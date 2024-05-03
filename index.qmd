@@ -6,7 +6,7 @@ format:
 
 # Welcome to my profile
 
-Hey! My name is Alba and I am currently a data scientist at the Health Data Science Center in the [University of Copenhagen]( https://www.ku.dk/). 
+Hey! My name is Alba and I am currently a Data Scientist at the Health Data Science Center in the [University of Copenhagen]( https://www.ku.dk/). 
 
 ![](images/ARM_full.jpg)
 
