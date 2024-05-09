@@ -5,17 +5,23 @@ format:
 ---
 
 # Welcome to my profile
+![](images/ARM_full.jpg){width=300}
 
-Hey! My name is Alba and I am currently a Data Scientist at the Health Data Science Center in the [University of Copenhagen]( https://www.ku.dk/). 
+[![](LinkedIN.png){width=50}](https://dk.linkedin.com/in/albarefoyo)   [![](Github_black.png){width=50}](https://github.com/albarema)   [![](Outlook.png){width=50}](alba.martinez@sund.ku.dk?subject=Test)   [![](mapPin.png){width=50}](https:heads.ku.dk)
 
-![](images/ARM_full.jpg)
+Hey! My name is Alba and I am a Sandbox Data Scientist at the Health Data Science Center at the [University of Copenhagen]( https://www.ku.dk/). Throughout my academic career as a PhD student and postdoctoral researcher, I gained strong expertise in large-scale genomics and the development of computational pipelines and environments on computing clusters.
 
-# Interests
-- Data Science
-- Health Science
-- Population and Evolutionary biology
+Currently, my focus is on creating online training modules and providing research services for researchers. My goal is to help others manage their research data effectively.  I provide computational support by offering lectures on tools such as Cookiecutter, Shiny apps, Git, GitHub, Snakemake, Nextflow, Docker, and Conda, which assist in building FAIR (Findable, Accessible, Interoperable, Reusable) pipelines and software to perform data analysis. Additionally, I conduct practical sessions involving hands-on projects, enabling researchers to apply these tools in real-world scenarios. For instance, we deploy SQLite catalogs using Shiny apps, creating a practical and interactive method for exploring and managing data.
 
-# Education:
+I am responsible for maintaining our Quarto website and managing two specific modules:
+- [Computational RDM](https://hds-sandbox.github.io/RDM_NGS_course/)
+- [HPC Best Practices](https://hds-sandbox.github.io/HPC-lab/): main contributor to `HPC Pipes`
+
+### Interests
+- (Health) Data Science
+- (Population) Genomics
+
+### Education:
 - Master in Bioinformatics (2017-2019)
       institution: Stanford University
       year: 2019
@@ -23,3 +29,8 @@ Hey! My name is Alba and I am currently a Data Scientist at the Health Data Scie
       institution: University
       year: 2017
 - BSc in Health Biology at the University of Alcalá de Henares
+
+## About me 
+I have a deep appreciation for nature and find peace in hiking, while my love for travel brings me adventure and the opportunity to explore other cultures.
+
+
