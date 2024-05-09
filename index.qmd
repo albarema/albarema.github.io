@@ -6,9 +6,19 @@ format:
 ---
 
 # Welcome to my profile
-![](images/ARM_full.jpg){width=200}
 
+:::columns
+:::{.column width="80%"}
 Hey! My name is Alba and I am a Sandbox Data Scientist at the Health Data Science Center at the [University of Copenhagen]( https://www.ku.dk/). Throughout my academic career as a PhD student and postdoctoral researcher, I gained strong expertise in large-scale genomics and the development of computational pipelines and environments on computing clusters.
+:::
+
+:::{.column width="20%"}
+<div style="margin-bottom: -10px;margin-top: -60px">
+![](images/ARM_full.jpg){fig-align="right" width=150 style="border-radius: 30%;"}
+</div>
+:::
+:::
+
 
 Currently, my focus is on creating online training modules and providing research services for researchers. My goal is to help others manage their research data effectively.  I provide computational support by offering lectures on tools such as Cookiecutter, Shiny apps, Git, GitHub, Snakemake, Nextflow, Docker, and Conda, which assist in building FAIR (Findable, Accessible, Interoperable, Reusable) pipelines and software to perform data analysis. Additionally, I conduct practical sessions involving hands-on projects, enabling researchers to apply these tools in real-world scenarios. For instance, we deploy SQLite catalogs using Shiny apps, creating a practical and interactive method for exploring and managing data.
 
