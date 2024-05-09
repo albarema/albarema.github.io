@@ -1,8 +1,11 @@
 ---
-title: "Research articles"
-format: html
+format: 
+    html:
+        page-layout: full
+        toc: false
 date-modified: last-modified
 date-format: long
 ---
+# Research articles
 
 During+6 years of experience as a research scientist, I have presented my research progress at +5 scientific conferences and produced manuscripts for high-impact journals.
