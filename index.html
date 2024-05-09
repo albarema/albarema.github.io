@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.4.554">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -119,31 +119,32 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 
 
 
 <section id="welcome-to-my-profile" class="level1">
 <h1>Welcome to my profile</h1>
-<p>Hey! My name is Alba and I am currently a Data Scientist at the Health Data Science Center in the <a href="https://www.ku.dk/">University of Copenhagen</a>.</p>
-<p><img src="images/ARM_full.jpg" class="img-fluid"></p>
-</section>
-<section id="interests" class="level1">
-<h1>Interests</h1>
+<p><img src="images/ARM_full.jpg" class="img-fluid" width="300"></p>
+<p><a href="https://dk.linkedin.com/in/albarefoyo"><img src="LinkedIN.png" class="img-fluid" width="50"></a> <a href="https://github.com/albarema"><img src="Github_black.png" class="img-fluid" width="50"></a> <a href="alba.martinez@sund.ku.dk?subject=Test"><img src="Outlook.png" class="img-fluid" width="50"></a> <a href="https:heads.ku.dk"><img src="mapPin.png" class="img-fluid" width="50"></a></p>
+<p>Hey! My name is Alba and I am a Sandbox Data Scientist at the Health Data Science Center at the <a href="https://www.ku.dk/">University of Copenhagen</a>. Throughout my academic career as a PhD student and postdoctoral researcher, I gained strong expertise in large-scale genomics and the development of computational pipelines and environments on computing clusters.</p>
+<p>Currently, my focus is on creating online training modules and providing research services for researchers. My goal is to help others manage their research data effectively. I provide computational support by offering lectures on tools such as Cookiecutter, Shiny apps, Git, GitHub, Snakemake, Nextflow, Docker, and Conda, which assist in building FAIR (Findable, Accessible, Interoperable, Reusable) pipelines and software to perform data analysis. Additionally, I conduct practical sessions involving hands-on projects, enabling researchers to apply these tools in real-world scenarios. For instance, we deploy SQLite catalogs using Shiny apps, creating a practical and interactive method for exploring and managing data.</p>
+<p>I am responsible for maintaining our Quarto website and managing two specific modules: - <a href="https://hds-sandbox.github.io/RDM_NGS_course/">Computational RDM</a> - <a href="https://hds-sandbox.github.io/HPC-lab/">HPC Best Practices</a>: main contributor to <code>HPC Pipes</code></p>
+<section id="interests" class="level3">
+<h3 class="anchored" data-anchor-id="interests">Interests</h3>
 <ul>
-<li>Data Science</li>
-<li>Health Science</li>
-<li>Population and Evolutionary biology</li>
+<li>(Health) Data Science</li>
+<li>(Population) Genomics</li>
 </ul>
 </section>
-<section id="education" class="level1">
-<h1>Education:</h1>
+<section id="education" class="level3">
+<h3 class="anchored" data-anchor-id="education">Education:</h3>
 <ul>
 <li>Master in Bioinformatics (2017-2019) institution: Stanford University year: 2019
 <ul>
@@ -151,8 +152,13 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li>BSc in Health Biology at the University of Alcalá de Henares</li>
 </ul>
+</section>
+<section id="about-me" class="level2">
+<h2 class="anchored" data-anchor-id="about-me">About me</h2>
+<p>I have a deep appreciation for nature and find peace in hiking, while my love for travel brings me adventure and the opportunity to explore other cultures.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -379,6 +385,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/albarema\.github\.io\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -413,7 +437,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
