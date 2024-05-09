@@ -19,7 +19,6 @@ Hey! My name is Alba and I am a Sandbox Data Scientist at the Health Data Scienc
 :::
 :::
 
-
 Currently, my focus is on creating online training modules and providing research services for researchers. My goal is to help others manage their research data effectively.  I provide computational support by offering lectures on tools such as Cookiecutter, Shiny apps, Git, GitHub, Snakemake, Nextflow, Docker, and Conda, which assist in building FAIR (Findable, Accessible, Interoperable, Reusable) pipelines and software to perform data analysis. Additionally, I conduct practical sessions involving hands-on projects, enabling researchers to apply these tools in real-world scenarios. For instance, we deploy SQLite catalogs using Shiny apps, creating a practical and interactive method for exploring and managing data.
 
 I am responsible for maintaining our Quarto website and managing two specific modules:
@@ -32,10 +31,11 @@ I am responsible for maintaining our Quarto website and managing two specific mo
 - (Population) Genomics
 
 ### Education:
+- PhD in Population Genetics (2019-2021)
 - Master in Bioinformatics (2017-2019)
-    - institution: University of Copenhagen
-- BSc in Health Biology
-    - institution: University of Alcalá de Henares
+    - Institution: University of Copenhagen
+- BSc in Health Biology (2013-2017)
+    - Institution: University of Alcalá de Henares
     - Erasmus Program at Vrije Universiteit Brussels 
 
 ## About me 
