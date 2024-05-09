@@ -7,8 +7,8 @@ website:
     left:
       - href: index.qmd
         text: Home
-#      - href: contact/contact.qmd
-#        text: Contact
+      - href: publications.qmd
+        text: My research
 
     right: 
       - icon: github
