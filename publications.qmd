@@ -5,6 +5,7 @@ format:
         toc: false
 date-modified: last-modified
 date-format: long
+bibliography: myref.bib
 ---
 
 # Research articles
