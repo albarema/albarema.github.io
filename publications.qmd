@@ -6,16 +6,15 @@ format:
 date-modified: last-modified
 date-format: long
 bibliography: myref.bib
-suppress-bibliography: true
 ---
 
 # Research articles
 
 During+6 years of experience as a research scientist, I have presented my research progress at +5 scientific conferences and produced manuscripts for high-impact journals.
 
-- @barrie2024elevated
-- @fischer2024vittrup
-- @allentoft2015population
-- @allentoft2024100
-- @refoyo2021robust
-- @refoyo2019identifying
+- @barrie2024elevated: tracing disease-associated over thousands of years
+- @fischer2024vittrup: trait predictions of ancient humans
+- @allentoft2015population: disease-associated variants identification and trait predictions of ancient humans
+- @allentoft2024100: demographic analyses and general population genetics analyses
+- @refoyo2021robust: GWAS robustness and portability to other ancestries
+- @refoyo2019identifying: graph-based identification of genomic variants 
