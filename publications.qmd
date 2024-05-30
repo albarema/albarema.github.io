@@ -6,11 +6,16 @@ format:
 date-modified: last-modified
 date-format: long
 bibliography: myref.bib
+suppress-bibliography: true
 ---
 
 # Research articles
 
 During+6 years of experience as a research scientist, I have presented my research progress at +5 scientific conferences and produced manuscripts for high-impact journals.
 
-::: {bibliography="myref.bib" print="all"}
-:::
+- @barrie2024elevated
+- @fischer2024vittrup
+- @allentoft2015population
+- @allentoft2024100
+- @refoyo2021robust
+- @refoyo2019identifying
