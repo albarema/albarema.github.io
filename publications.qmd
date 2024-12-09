@@ -3,18 +3,26 @@ format:
     html:
         page-layout: full
         toc: false
-date-modified: last-modified
-date-format: long
 bibliography: myref.bib
 ---
 
+During my +6 years of experience as a research scientist at the University of Copenhagen, I have developed novel scientific software, written reproducible open-source computational pipelines, and performed mathematical modelling in large genomic datasets. I worked in human population genetics and the ancient DNA field and established fruitful collaborations with research groups of diverse backgrounds across the globe. This period, helped me develop some powerful skills:
+
+- Data analyst - refining my bioinformatics skills and scientific computing using Python, R, snakemake and conda
+- Project management - leading and coordinating several research projects
+- Communication skills - presenting research progress at +5 scientific conferences and producing manuscripts for high-impact journals
+- Leadership - mentoring 2 master-level students
+- Event management - organising the logistics for +100 Scientists at a Danish conference, activities during the lab retreat for my research centre and a one-day PhD event for the GLOBE Institute
+
 # Research articles
 
-During+6 years of experience as a research scientist, I have presented my research progress at +5 scientific conferences and produced manuscripts for high-impact journals.
+I have presented my research progress at +5 scientific conferences and produced manuscripts for high-impact journals. Here you can find a summary of the papers I have contributed to: 
 
-- @barrie2024elevated: tracing disease-associated over thousands of years
-- @fischer2024vittrup: trait predictions of ancient humans
-- @allentoft2015population: disease-associated variants identification and trait predictions of ancient humans
-- @allentoft2024100: demographic analyses and general population genetics analyses
-- @refoyo2021robust: GWAS robustness and portability to other ancestries
-- @refoyo2019identifying: graph-based identification of genomic variants 
+- **Faster Model-Based Estimation of Ancestry Proportions** [@santander2024faster]: efficient software for inferring ancestry proportions 
+- **Elevated Genetic Risk for Multiple Sclerosis Emerged in Steppe Pastoralist Population** [@barrie2024elevated]: tracing disease-associated over thousands of years
+- **The selection landscape and genetic legacy of ancient Eurasians** [@irving2024selection]: disease-associated variants identification and trait predictions of ancient humans
+- **Population Genomics of Post-Glacial Western Eurasia** [@allentoft2024population]: demographic analyses and general population genetics analyses
+- **100 ancient genomes show repeated population turnovers in Neolithic Denmark**[@allentoft2024100]: demographic movements and genetic diversity resulting from the Neolithic transition
+- **Vittrup Man–the Life-History of a Genetic Foreigner in Neolithic Denmark** [@fischer2024vittrup]: trait predictions of nordic ancient individuals 
+- **How Robust Are Cross-Population Signatures of Polygenic Adaptation in Humans?** [@refoyo2021robust]: GWAS robustness and portability to other ancestries
+- **Identifying Loci Under Positive Selection in Complex Population Histories** [@refoyo2019identifying]: graph-based identification of genomic variants 

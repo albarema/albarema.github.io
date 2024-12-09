@@ -6,7 +6,9 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: Main page
+      - href: cv.qmd
+        text: CV
       - href: publications.qmd
         text: My research
 

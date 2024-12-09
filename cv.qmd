@@ -1,0 +1,51 @@
+
+---
+format: 
+    html:
+        page-layout: full
+        toc: false
+bibliography: myref.bib
+---
+
+## 📄 **Download my CV**
+
+<a href="./ARMCV.pdf" download="ARM-CV.pdf"> 
+    <button class="btn small-button">Download here</button>
+</a>
+
+
+
+## 📘 **Education**
+| 🎓 **Degree**              | 🏛️ **Institution**                          | 📅 **Year** |
+|----------------------------|---------------------------------------------|-------------|
+| **PhD in Population Genetics** | **University of Copenhagen** | **2019 - 2021** |
+| **Master in Bioinformatics**    | **University of Copenhagen**             | **2017 - 2019** |
+| **BSc in Health Biology**       | **University of Alcalá de Henares**       | **2013 - 2017** |
+|                             | *Erasmus Program at Vrije Universiteit Brussels* | **2006 - 2017** |
+
+## 🌐 **Interests**
+- **Health Data Science**  
+- **Population Genomics**  
+- **Research Data Management**  
+
+These areas drive my passion for developing innovative, reproducible, and open solutions that help the scientific community. I sam committed to creating open-access, community-driven projects where knowledge and tools are shared freely.
+
+
+## 🧑‍🏫 **Teaching & Training**
+
+I am involve in teaching **PhD students and researchers** practical aspects of:  
+
+- **Pipeline development** (Snakemake, Nextflow)  
+- **Software management** (Git, Docker, Conda, GitHub)  
+- **HPC concepts** (High-Performance Computing)  
+- **Genomics**  
+- **Transcriptomics**
+- **Research Data Management (RDM)**  
+
+**My teaching philosophy**: Emphasize hands-on, project-based learning where researchers actively engage with the tools they will use in their day-to-day work.
+
+
+
+## 🌍 **About Me**
+Beyond my professional work, I have a deep appreciation for nature and find peace in hiking. My passion for travel sparks my curiosity, allowing me to explore diverse cultures and gain new perspectives.
+
