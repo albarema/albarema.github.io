@@ -6,15 +6,17 @@ format:
 bibliography: myref.bib
 ---
 
+# My research career 
+
 During my +6 years of experience as a research scientist at the University of Copenhagen, I have developed novel scientific software, written reproducible open-source computational pipelines, and performed mathematical modelling in large genomic datasets. I worked in human population genetics and the ancient DNA field and established fruitful collaborations with research groups of diverse backgrounds across the globe. This period, helped me develop some powerful skills:
 
-- Data analyst - refining my bioinformatics skills and scientific computing using Python, R, snakemake and conda
+- Data scientist - refining my bioinformatics skills and scientific computing using Python, R, snakemake, nextflow, docker and conda
 - Project management - leading and coordinating several research projects
 - Communication skills - presenting research progress at +5 scientific conferences and producing manuscripts for high-impact journals
-- Leadership - mentoring 2 master-level students
+- Leadership - mentoring 2 master-level students during my PhD
 - Event management - organising the logistics for +100 Scientists at a Danish conference, activities during the lab retreat for my research centre and a one-day PhD event for the GLOBE Institute
 
-# Research articles
+## Research articles
 
 I have presented my research progress at +5 scientific conferences and produced manuscripts for high-impact journals. Here you can find a summary of the papers I have contributed to: 
 
@@ -26,3 +28,16 @@ I have presented my research progress at +5 scientific conferences and produced 
 - **Vittrup Man–the Life-History of a Genetic Foreigner in Neolithic Denmark** [@fischer2024vittrup]: trait predictions of nordic ancient individuals 
 - **How Robust Are Cross-Population Signatures of Polygenic Adaptation in Humans?** [@refoyo2021robust]: GWAS robustness and portability to other ancestries
 - **Identifying Loci Under Positive Selection in Complex Population Histories** [@refoyo2019identifying]: graph-based identification of genomic variants 
+
+## Early scientific career 
+
+Before joining the University of Copenhagen, I gained my first research experience through projects that sparked my curiosity and inspired me to become a scientist. These early experiences played a key role in shaping my passion for research and set me on the path toward a career in bioinformatics. 
+
+<div style="font-size: 0.9em;">
+| 💼 **Position**      | 📘 **Topic**        | 🏛️ **Institution**                          | 📅 **Year** |
+|------------------------|-------------------------------|--------------|-------|
+| Traineeship at the department of bioengineering science | Optimization of a functional read-out system of G protein-coupled receptors for free fatty acids | Vrije Universiteit Brussel | 2017| 
+| Undergraduate researcher In the Cardiovascular and Social Epidemiology Research Group | Primary data collection of dietary health habits from different neighborhoods in Madrid and data analysis of its effects and correlation with social and economic factors| Universidad de Alcalá | 2016 | 
+| Junior Team Coordinator at Introductory Physics Life Sciences (IPLS)| Guidelines for IPLS researcher to better train professionals to work in pluridisciplinar research groups | Universidad de Alcalá | 2015 - 2017 | 
+
+<div> 

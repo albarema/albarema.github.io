@@ -14,7 +14,7 @@ bibliography: myref.bib
 </a>
 
 
-
+<div style="font-size: 0.9em;">
 ## 📘 **Education**
 | 🎓 **Degree**              | 🏛️ **Institution**                          | 📅 **Year** |
 |----------------------------|---------------------------------------------|-------------|
@@ -22,6 +22,7 @@ bibliography: myref.bib
 | **Master in Bioinformatics**    | **University of Copenhagen**             | **2017 - 2019** |
 | **BSc in Health Biology**       | **University of Alcalá de Henares**       | **2013 - 2017** |
 |                             | *Erasmus Program at Vrije Universiteit Brussels* | **2006 - 2017** |
+<div>
 
 ## 🌐 **Interests**
 - **Health Data Science**  
@@ -33,7 +34,7 @@ These areas drive my passion for developing innovative, reproducible, and open s
 
 ## 🧑‍🏫 **Teaching & Training**
 
-I am involve in teaching **PhD students and researchers** practical aspects of:  
+I am currently involve in teaching **PhD students and researchers** practical aspects of:  
 
 - **Pipeline development** (Snakemake, Nextflow)  
 - **Software management** (Git, Docker, Conda, GitHub)  
@@ -42,10 +43,25 @@ I am involve in teaching **PhD students and researchers** practical aspects of:
 - **Transcriptomics**
 - **Research Data Management (RDM)**  
 
-**My teaching philosophy**: Emphasize hands-on, project-based learning where researchers actively engage with the tools they will use in their day-to-day work.
+#####  Past Teaching Engagements
 
+- **Analysis of large-scale datasets**: PhD course - 2021
+- **Interaction design (KOMIT)’ on the interaction and usability of user interfaces**: Bachelor course - 2019 
 
+**My teaching philosophy**: I emphasize hands-on, project-based learning, where researchers actively engage with the tools they will use in their day-to-day work. I believe in breaking down complex concepts into simple, manageable parts and gradually building on them to promote deeper understanding and confidence.
+
+## 🤝  Volunteer tasks 
+
+I have participated in several event organizing, supporting the planning and coordination of scientific workshops, seminars, and community initiatives.
+
+<div style="font-size: 0.9em;">
+|  Event|	 Contribution| Year|
+|----------------------------|---------------------------------------------|-------------|
+| Evolutionary and Population Genetics conference (EPIC) | GWAS session chair | 2023 |
+| Evolutionary and Population Genetics conference (EPIC) | Organizer  | 2022 |
+| GLOBE PhD Day | Globe PhD Committee member | 2022 | 
+<div>
 
 ## 🌍 **About Me**
-Beyond my professional work, I have a deep appreciation for nature and find peace in hiking. My passion for travel sparks my curiosity, allowing me to explore diverse cultures and gain new perspectives.
+Beyond my professional work, I have a deep appreciation for nature and find peace in hiking. In 2010, I had the opportunity to take part in an exceptional educational and cultural exchange project called [*The Ruta Quetzal*](https://www.rutaquetzal.com/), which sparked my passion for hiking. My love for travel sparks my curiosity, allowing me to explore diverse cultures and gain new perspectives.
 
