@@ -31,7 +31,7 @@ I am part of a team in charge of online training modules and offer computational
 - 💡 **Shiny Apps** (for interactive data visualization)  
 
 ### **My Approach**
-I believe that practical, hands-on learning is essential. That's why I design interactive training material, workshops and real-world projects. All training materials, including web-based exercises, are openly available on the [project's website](https://hds-sandbox.github.io/).
+I believe that practical, hands-on learning is essential. That's why I design interactive training material, workshops, and real-world projects. All training materials, including web-based exercises, are openly available on the [project's website](https://hds-sandbox.github.io/).
 
 
 ## 📦 **Sandbox Project: Training modules & Apps**
