@@ -18,7 +18,7 @@ bibliography: myref.bib
 ## 📘 **Education**
 | 🎓 **Degree**              | 🏛️ **Institution**                          | 📅 **Year** |
 |----------------------------|---------------------------------------------|-------------|
-| **PhD in Population Genetics** | **University of Copenhagen** | **2019 - 2021** |
+| **PhD in Bioinformatcis** | **University of Copenhagen** | **2019 - 2021** |
 | **Master in Bioinformatics**    | **University of Copenhagen**             | **2017 - 2019** |
 | **BSc in Health Biology**       | **University of Alcalá de Henares**       | **2013 - 2017** |
 |                             | *Erasmus Program at Vrije Universiteit Brussels* | **2006 - 2017** |
@@ -29,12 +29,12 @@ bibliography: myref.bib
 - **Population Genomics**  
 - **Research Data Management**  
 
-These areas drive my passion for developing innovative, reproducible, and open solutions that help the scientific community. I sam committed to creating open-access, community-driven projects where knowledge and tools are shared freely.
+These areas drive my passion for developing innovative, reproducible, and open solutions that help the scientific community. I am committed to creating open-access, community-driven projects where knowledge and tools are shared freely.
 
 
 ## 🧑‍🏫 **Teaching & Training**
 
-I am currently involve in teaching **PhD students and researchers** practical aspects of:  
+I am currently involved in teaching **PhD students and researchers** practical aspects of:  
 
 - **Pipeline development** (Snakemake, Nextflow)  
 - **Software management** (Git, Docker, Conda, GitHub)  
@@ -52,13 +52,13 @@ I am currently involve in teaching **PhD students and researchers** practical as
 
 ## 🤝  Volunteer tasks 
 
-I have participated in several event organizing, supporting the planning and coordination of scientific workshops, seminars, and community initiatives.
+I have participated in several events organizing, supporting the planning and coordination of scientific workshops, seminars, and community initiatives.
 
 <div style="font-size: 0.9em;">
 |  Event|	 Contribution| Year|
 |----------------------------|---------------------------------------------|-------------|
-| Evolutionary and Population Genetics conference (EPIC) | GWAS session chair | 2023 |
-| Evolutionary and Population Genetics conference (EPIC) | Organizer  | 2022 |
+| Evolutionary and Population Genetics Conference (EPIC) | GWAS session chair | 2023 |
+| Evolutionary and Population Genetics Conference (EPIC) | Organizer  | 2022 |
 | GLOBE PhD Day | Globe PhD Committee member | 2022 | 
 <div>
 
