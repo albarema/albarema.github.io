@@ -21,6 +21,7 @@ During my +6 years of experience as a research scientist at the University of Co
 I have presented my research progress at +5 scientific conferences and produced manuscripts for high-impact journals. Here you can find a summary of the papers I have contributed to: 
 
 - **Faster Model-Based Estimation of Ancestry Proportions** [@santander2024faster]: efficient software for inferring ancestry proportions 
+- **Circumpolar Population Structure, Diversity and Recent Evolutionary History of the Bearded Seal in Relation to Past and Present Icescapes** [mccarthy2025circumpolar]: identifying highly differentiated genomic regions, which can complement research on health, physiology, and behaviour—key areas for informing conservation strategies for this species
 - **Elevated Genetic Risk for Multiple Sclerosis Emerged in Steppe Pastoralist Population** [@barrie2024elevated]: tracing disease-associated over thousands of years
 - **The selection landscape and genetic legacy of ancient Eurasians** [@irving2024selection]: disease-associated variants identification and trait predictions of ancient humans
 - **Population Genomics of Post-Glacial Western Eurasia** [@allentoft2024population]: demographic analyses and general population genetics analyses
