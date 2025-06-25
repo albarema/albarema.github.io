@@ -8,7 +8,7 @@ bibliography: myref.bib
 
 # My research career 
 
-During my +6 years of experience as a research scientist at the University of Copenhagen, I have developed novel scientific software, written reproducible open-source computational pipelines, and performed mathematical modelling in large genomic datasets. I worked in human population genetics and the ancient DNA field and established fruitful collaborations with research groups of diverse backgrounds across the globe. This period, helped me develop some powerful skills:
+During my +7 years of experience as a research scientist at the University of Copenhagen, I have developed novel scientific software, written reproducible open-source computational pipelines, and performed mathematical modelling in large genomic datasets. I worked in human population genetics and the ancient DNA field and established fruitful collaborations with research groups of diverse backgrounds across the globe. This period, helped me develop some powerful skills:
 
 - Data scientist - refining my bioinformatics skills and scientific computing using Python, R, snakemake, nextflow, docker and conda
 - Project management - leading and coordinating several research projects
@@ -20,6 +20,7 @@ During my +6 years of experience as a research scientist at the University of Co
 
 I have presented my research progress at +5 scientific conferences and produced manuscripts for high-impact journals. Here you can find a summary of the papers I have contributed to: 
 
+- **Faroese Whole Genomes Provide Insight into Ancestry and Recent Selection** [@hamid2025faroese]: exploring how evolution shaped the genetics of North Atlantic populations
 - **Faster Model-Based Estimation of Ancestry Proportions** [@santander2024faster]: efficient software for inferring ancestry proportions 
 - **Circumpolar Population Structure, Diversity and Recent Evolutionary History of the Bearded Seal in Relation to Past and Present Icescapes** [mccarthy2025circumpolar]: identifying highly differentiated genomic regions, which can complement research on health, physiology, and behaviour—key areas for informing conservation strategies for this species
 - **Elevated Genetic Risk for Multiple Sclerosis Emerged in Steppe Pastoralist Population** [@barrie2024elevated]: tracing disease-associated over thousands of years

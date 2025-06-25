@@ -4,7 +4,7 @@
 
 $navbar-bg: #782323;
 $sidebar-bg: white;
-$footer-bg: #80c4e6;
+$footer-bg: #4e7dc8;
 
 // Center h1 titles 
 .centered h1 {
@@ -14,4 +14,10 @@ $footer-bg: #80c4e6;
 // frames for images
 .black-box {
   border: 1px solid rgb(169, 169, 169);
+}
+
+.navbar-nav > li:first-child > a {
+  font-size: 1.25rem;  /* or try 1.4rem or 20px */
+  font-weight: 800;
+  padding-top: 0.6rem;  /* adjust as needed */
 }

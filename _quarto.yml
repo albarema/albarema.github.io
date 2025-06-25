@@ -2,30 +2,23 @@ project:
   type: website
 
 website:
-  title: 'Alba Refoyo Martinez'
   navbar:
     left:
       - href: index.qmd
-        text: Main page
+        text: Alba Refoyo Martinez
       - href: cv.qmd
         text: CV
       - href: publications.qmd
         text: My research
-
-    right: 
+      - icon: linkedin
+        href: https://dk.linkedin.com/in/albarefoyo
+        aria-label: LinkedIn 
       - icon: github
         href: https://github.com/albarema
         aria-label: GitHub
-      - icon: linkedin
-        href: https://dk.linkedin.com/in/albarefoyo
-        aria-label: LinkedIn
-      - icon: twitter
-        href: https://twitter.com/ucph_heads
-        aria-label: Twitter   
-
 format:
   html:
     theme: 
       light: [materia, css/materialight.scss]
-      dark: darkly
+      dark:  darkly
     toc: true

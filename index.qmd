@@ -2,75 +2,66 @@
 format: 
     html:
         page-layout: full
-        toc-location: left 
+        toc: false 
 ---
 
-## 🎯 **About Me**
 :::columns
 :::{.column width="80%"}
-Hi and welcome to my website! My name is **Alba**, and I’m a **Sandbox Data Scientist** at the Health Data Science Center at the [University of Copenhagen](https://www.ku.dk/). With a strong background in **large-scale genomics** and **pipeline development**, I specialize in building and maintaining computational environments on HPC platforms.  
+## Hi and welcome to my website! 
 
-My work focuses on research, education, and the development of computational tools for bioinformatics and data science. I aim to help researchers **manage research data more effectively** and promote **FAIR (Findable, Accessible, Interoperable, and Reusable) principles**.  
+I'm **Alba**, a **Data Scientist** at the Health Data Science Center at the [University of Copenhagen](https://www.ku.dk/). I work mostly with reproducible pipelines and omics data on academic HPC systems. My background is in large-scale genomics and bioinformatics, and I spend a lot of time building tools and pipelines that make data analysis easier, more reproducible, and FAIR (Findable, Accessible, Interoperable, and Reusable).
 :::
 
 :::{.column width="20%"}
-<div style="margin-bottom: -10px;margin-top: -60px">
+<div style="margin-bottom: -10px;margin-top: -20px">
 ![](images/ARM_full.jpg){fig-align="right" width=150 style="border-radius: 30%;"}
 </div>
 :::
 :::
 
-### **What I Do**
+### **What I work on (moslty)** 
 
-I am part of a team in charge of online training modules and offer computational services for researchers. My focus is on equipping researchers with the skills and tools needed for effective and FAIRly data management and data analysis. This includes offering **lectures, workshops, and computational support** on essential tools for data analysis and reproducibility, including:
+I'm part  of a team that develops online training modules and offers support to researchers working with omics and clinical data. I focus on helping people build the skills they need to manage and analyze data in a structured and reproducible way.I regularly teach workshops and create online training materials on tools like:
 
-- 🌀 **Git & GitHub** (for version control and collaboration)  
-- ⚙️ **Snakemake & Nextflow** (for workflow automation)  
-- 🐳 **Docker & Conda** (for containerization and environment management)  
-- 🛠️ **Cookiecutter** (for reproducible project templates)  
-- 💡 **Shiny Apps** (for interactive data visualization)  
+- **Git & GitHub** - for version control and collaboration
+- **Snakemake & Nextflow** - for workflow automation
+- **Docker & Conda** - for containerization and environment management
+- **Cookiecutter** - for reproducible project templates
+- **Shiny Apps** - for interactive data visualization 
+- **Data analysis** – focused on omics (transcriptomics and genomics) and clinical data
 
-### **My Approach**
-I believe that practical, hands-on learning is essential. That's why I design interactive training material, workshops, and real-world projects. All training materials, including web-based exercises, are openly available on the [project's website](https://hds-sandbox.github.io/).
+## What I Do Day-to-Day
+
+Want to know what my day usually looks like? I spend most of it building and testing training modules, working on containerized apps, and helping researchers run their data analysis more smoothly — especially on HPC systems.
+
+That means writing code, creating example workflows, troubleshooting environments, and turning all of that into hands-on materials others can actually learn from. I also run workshops and help maintain the infrastructure behind our training platform, making sure everything stays up-to-date and reproducible. All materials I create — from workshops to web-based exercises — are freely available on the [project's website](https://hds-sandbox.github.io/).
 
 
-## 📦 **Sandbox Project: Training modules & Apps**
-As part of the national **Sandbox Project**, we develop a range of containerized apps and training modules to support researchers in bioinformatics and research data management (RDM). These resources combine notebooks, coding exercises, and interactive learning materials, hosted on a GitHub Pages website built with Quarto. Our materials are fully version-controlled, ensuring consistency, transparency, and easy access to updates. Below are some of the key modules I contribute to:
+### **Training modules & Apps - What we build in the Sandbox**
+As part of the national **Health Data Science Sandbox Project**, we create containerized apps and training modules that combine notebooks, coding exercises, and interactive tutorials. Everything is hosted on GitHub Pages using Quarto, and fully version-controlled — so it's easy to track updates, stay consistent, and share improvements.
 
-Two of our training modules are designed to equip researchers with the essential tools and concepts needed to develop effective workflows and manage software in High-Performance Computing (HPC) and Research Data Management (RDM). 
+Here are some of the key modules I work on:
 
-:::{.callout-note}
-### **[Computational RDM](https://hds-sandbox.github.io/RDM_biodata_course/)**
-**Objective**: Equip researchers in the omics field with the best RDM practices, helping them better organize, integrate, and visualize their data.  
-  
-**Key Concepts Covered**:  
+#### **[Computational RDM](https://hds-sandbox.github.io/RDM_biodata_course/)**
+This one’s all about helping omics researchers improve how they manage and organize their data and projects on HPCs. Topics: 
+
 - Research Data Management (RDM) concepts  
 - Best practices in data organization and integration  
 - Tools to support effective data management  
   
-💡 **Why it matters?** Effective RDM saves time and improves reproducibility for researchers working with large, complex datasets.
-:::
+**Why it matters?** Getting your data management right early on saves you from headaches later — especially when dealing with big or complex datasets.
 
-:::{.callout-note}
-# **[HPC Best Practices](https://hds-sandbox.github.io/HPC-lab/)**
+#### **[HPC Best Practices](https://hds-sandbox.github.io/HPC-lab/)**
 
-**Objective**: Introduce researchers to pipelines and workflows for bioinformatics, especially those on High-Performance Computing (HPC) systems.  
-  
-**Key Concepts Covered**:  
+A go-to resource for researchers working on HPC, building workflows and pipelines, or running data science projects — all with reproducibility in mind. Topics: 
+
 - Workflow management using **Snakemake** and **Nextflow**  
 - Using community-driven pipelines like **nf-core**  
 - Building efficient and scalable workflows to reduce data management time  
+- Software management (package managers and containers)
   
-⚙️ **My Role**: Main contributor to the **HPC Pipes** module. This module demonstrates how to structure workflows, set resources, and optimize performance, helping researchers save time and effort.
-:::
-
-### **Containerized Apps**
-We also create portable, reproducible, and system-agnostic apps using Docker, enabling seamless deployment across platforms. While primarily deployed on Danish HPC systems, all content is openly available on GitHub, allowing others to deploy them on any compatible system.
+#### **Containerized Apps**
+We also build Docker-based apps that are portable, reproducible, and system-agnostic — meaning they run pretty much anywhere. While they're used mostly on Danish HPC systems, everything's open and available on GitHub and can be pulled directly from Docker Hub so others can easily deploy them too.
 
 - **[Genomics App](https://hds-sandbox.github.io/modules/)**: Tools and tutorials for genomic data analysis.  
 - **[Transcriptomics App](https://hds-sandbox.github.io/modules/)**: Tools for working with transcriptomics data.  
-
-:::{.callout-tip appearance="simple"}
-# **Why Containerization?**  
-By containerizing our tools with Docker, we ensure consistent performance across platforms, making it easier for researchers to replicate results.
-:::

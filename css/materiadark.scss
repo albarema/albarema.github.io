@@ -2,6 +2,23 @@
 
 // Base document colors
 
-//$navbar-bg: #4266A1;
-//$sidebar-bg: white;
-//$footer-bg: #4266A1;
+$navbar-bg: #4e7dc8;
+$sidebar-bg: white;
+$footer-bg: #4e7dc8;
+
+
+// Center h1 titles 
+.centered h1 {
+    text-align: center;
+  }
+
+// frames for images
+.black-box {
+  border: 1px solid rgb(169, 169, 169);
+}
+
+.navbar-nav > li:first-child > a {
+  font-size: 1.25rem;  /* or try 1.4rem or 20px */
+  font-weight: 800;
+  padding-top: 0.6rem;  /* adjust as needed */
+}
