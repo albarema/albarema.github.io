@@ -10,7 +10,9 @@ bibliography: myref.bib
 ## 📄 **Download my CV**
 
 <a href="./ARMCV.pdf" download="ARMCV.pdf"> 
-    <button class="btn small-button">Download here</button>
+    <button style="border: 2px solid lightblue; padding: 5px 10px; border-radius: 5px;">
+    Download here
+    </button>
 </a>
 
 
@@ -50,7 +52,7 @@ I am currently involved in teaching **PhD students and researchers** practical a
 
 **My teaching philosophy**: I emphasize hands-on, project-based learning, where researchers actively engage with the tools they will use in their day-to-day work. I believe in breaking down complex concepts into simple, manageable parts and gradually building on them to promote deeper understanding and confidence.
 
-## 🤝  Volunteer tasks 
+## 🤝 Organizational tasks 
 
 I have participated in several events organizing, supporting the planning and coordination of scientific workshops, seminars, and community initiatives.
 

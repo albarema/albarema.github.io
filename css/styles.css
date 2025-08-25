@@ -1,0 +1,20 @@
+/*-- css:defaults --*/
+
+/* Change the page background */
+body {
+  background-color: #f4f8f4; /* light grey, change to any color */
+}
+
+/*  Center h1 titles */
+.centered h1 {
+    text-align: center;
+  }
+
+/* frames for images*/
+.black-box {
+  border: 1px solid rgb(169, 169, 169);
+}
+
+.navbar-nav > li:first-child > a {
+  font-weight: 600;
+}

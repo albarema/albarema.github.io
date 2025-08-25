@@ -1,10 +1,9 @@
 /*-- scss:defaults --*/
 
-// Base document colors
-
-$navbar-bg: #782323;
-$sidebar-bg: white;
-$footer-bg: #4e7dc8;
+/* Change the page background */
+main {
+  background-color: #a64343; /* light grey, change to any color */
+}
 
 // Center h1 titles 
 .centered h1 {
