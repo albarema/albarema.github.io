@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.7.33">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -36,14 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-77ee7404bdda8af4009549b5fbc1d198.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-0c23511428beaf87b29bbdf0654d5814.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-77ee7404bdda8af4009549b5fbc1d198.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-4df3b0c4fafa0f66eafcead0ee6cff11.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,171 +69,10 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
-    const toggleBodyColorMode = (bsSheetEl) => {
-      const mode = bsSheetEl.getAttribute("data-mode");
-      const bodyEl = window.document.querySelector("body");
-      if (mode === "dark") {
-        bodyEl.classList.add("quarto-dark");
-        bodyEl.classList.remove("quarto-light");
-      } else {
-        bodyEl.classList.add("quarto-light");
-        bodyEl.classList.remove("quarto-dark");
-      }
-    }
-    const toggleBodyColorPrimary = () => {
-      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
-      if (bsSheetEl) {
-        toggleBodyColorMode(bsSheetEl);
-      }
-    }
-    const setColorSchemeToggle = (alternate) => {
-      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-      for (let i=0; i < toggles.length; i++) {
-        const toggle = toggles[i];
-        if (toggle) {
-          if (alternate) {
-            toggle.classList.add("alternate");
-          } else {
-            toggle.classList.remove("alternate");
-          }
-        }
-      }
-    };
-    const toggleColorMode = (alternate) => {
-      // Switch the stylesheets
-      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
-      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-      manageTransitions('#quarto-margin-sidebar .nav-link', false);
-      if (alternate) {
-        // note: dark is layered on light, we don't disable primary!
-        enableStylesheet(alternateStylesheets);
-        for (const sheetNode of alternateStylesheets) {
-          if (sheetNode.id === "quarto-bootstrap") {
-            toggleBodyColorMode(sheetNode);
-          }
-        }
-      } else {
-        disableStylesheet(alternateStylesheets);
-        enableStylesheet(primaryStylesheets)
-        toggleBodyColorPrimary();
-      }
-      manageTransitions('#quarto-margin-sidebar .nav-link', true);
-      // Switch the toggles
-      setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
-      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-        manageTransitions("body", false);
-        window.scrollTo(0, 1);
-        setTimeout(() => {
-          window.scrollTo(0, 0);
-          manageTransitions("body", true);
-        }, 40);
-      }
-    }
-    const disableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        stylesheet.rel = 'disabled-stylesheet';
-      }
-    }
-    const enableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
-          stylesheet.rel = 'stylesheet';
-        }
-      }
-    }
-    const manageTransitions = (selector, allowTransitions) => {
-      const els = window.document.querySelectorAll(selector);
-      for (let i=0; i < els.length; i++) {
-        const el = els[i];
-        if (allowTransitions) {
-          el.classList.remove('notransition');
-        } else {
-          el.classList.add('notransition');
-        }
-      }
-    }
-    const isFileUrl = () => {
-      return window.location.protocol === 'file:';
-    }
-    const hasAlternateSentinel = () => {
-      let styleSentinel = getColorSchemeSentinel();
-      if (styleSentinel !== null) {
-        return styleSentinel === "alternate";
-      } else {
-        return false;
-      }
-    }
-    const setStyleSentinel = (alternate) => {
-      const value = alternate ? "alternate" : "default";
-      if (!isFileUrl()) {
-        window.localStorage.setItem("quarto-color-scheme", value);
-      } else {
-        localAlternateSentinel = value;
-      }
-    }
-    const getColorSchemeSentinel = () => {
-      if (!isFileUrl()) {
-        const storageValue = window.localStorage.getItem("quarto-color-scheme");
-        return storageValue != null ? storageValue : localAlternateSentinel;
-      } else {
-        return localAlternateSentinel;
-      }
-    }
-    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-      let newTheme = '';
-      if(authorPrefersDark) {
-        newTheme = isAlternate ? baseTheme : alternateTheme;
-      } else {
-        newTheme = isAlternate ? alternateTheme : baseTheme;
-      }
-      const changeGiscusTheme = () => {
-        // From: https://github.com/giscus/giscus/issues/336
-        const sendMessage = (message) => {
-          const iframe = document.querySelector('iframe.giscus-frame');
-          if (!iframe) return;
-          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-        }
-        sendMessage({
-          setConfig: {
-            theme: newTheme
-          }
-        });
-      }
-      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-      if (isGiscussLoaded) {
-        changeGiscusTheme();
-      }
-    };
-    const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
-      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-    // Dark / light mode switch
-    window.quartoToggleColorScheme = () => {
-      // Read the current dark / light value
-      let toAlternate = !hasAlternateSentinel();
-      toggleColorMode(toAlternate);
-      setStyleSentinel(toAlternate);
-      toggleGiscusIfUsed(toAlternate, darkModeDefault);
-      window.dispatchEvent(new Event('resize'));
-    };
-    // Switch to dark mode if need be
-    if (hasAlternateSentinel()) {
-      toggleColorMode(true);
-    } else {
-      toggleColorMode(false);
-    }
-  </script>
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -254,6 +89,10 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Alba Refoyo Martinez</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./cv.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
@@ -261,6 +100,8 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./publications.html"> 
 <span class="menu-text">My research</span></a>
   </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
     <a class="nav-link" href="https://dk.linkedin.com/in/albarefoyo"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
 </i> 
@@ -274,7 +115,6 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -290,98 +130,34 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-
 <div class="columns">
-<div class="column" style="width:80%;">
-<section id="hi-and-welcome-to-my-website" class="level2">
-<h2 class="anchored" data-anchor-id="hi-and-welcome-to-my-website">Hi and welcome to my website!</h2>
-<p>I’m <strong>Alba</strong>, a <strong>Data Scientist</strong> at the Health Data Science Center at the <a href="https://www.ku.dk/">University of Copenhagen</a>. I work mostly with reproducible pipelines and omics data on academic HPC systems. My background is in large-scale genomics and bioinformatics, and I spend a lot of time building tools and pipelines that make data analysis easier, more reproducible, and FAIR (Findable, Accessible, Interoperable, and Reusable).</p>
+<div class="column" style="width:70%;">
+<section id="alba-refoyo-martinez" class="level3">
+<h3 class="anchored" data-anchor-id="alba-refoyo-martinez">Alba Refoyo Martinez</h3>
+<section id="data-science-and-reproducible-research-for-every-lab-every-system" class="level5">
+<h5 class="anchored" data-anchor-id="data-science-and-reproducible-research-for-every-lab-every-system"><strong>Data science and reproducible research for every lab, every system</strong></h5>
+<p>&nbsp;</p>
+<p>I’m <strong>Alba</strong>, a <strong>data scientist</strong> at the Health Data Science Center at the <a href="https://www.ku.dk/">University of Copenhagen</a>. I have a background in biomedicine and bioinformatics, with a focus on large-scale genomics and omics data analysis. I’ve always been passionate about research and human health, and over the years, my experience in research has shown me the importance of reproducibility and transparency. Today, my work centers on building reproducible pipelines and tools that make data analysis easier, more transparent, and FAIR (Findable, Accessible, Interoperable, and Reusable), ensuring they can be deployed across different HPC systems and even locally, helping make data science not only efficient but also equitable and trustworthy.</p>
+<p>Beyond development, I’m deeply invested in sharing knowledge—I run workshops, provide consultations, and collaborate with researchers to help them make their analyses work reliably across different academic HPC environments, improving reproducibility and efficiency in their projects.</p>
+<p>Want to know more about me? You can find my full <a href="./cv.html">CV</a>, a more detailed look at what I do <a href="./projects.html">day-to-day</a>, as well as <a href="./publications.html">publications</a> to explore my research work.</p>
 </section>
-</div><div class="column" style="width:20%;">
-<div style="margin-bottom: -10px;margin-top: -20px">
+</section>
+</div><div class="column" style="width:30%;">
+<div style="margin-bottom: 0px;margin-top: 0px; margin-left: 20px;">
 <div class="quarto-figure quarto-figure-right">
 <figure class="figure">
-<p><img src="images/ARM_full.jpg" class="img-fluid quarto-figure quarto-figure-right figure-img" style="border-radius: 30%;" width="150"></p>
+<p><img src="images/ARM_full.jpg" class="img-fluid quarto-figure quarto-figure-right figure-img" style="border-radius: 30%;" width="250"></p>
 </figure>
 </div>
 </div>
 </div>
 </div>
-<section id="what-i-work-on-moslty" class="level3">
-<h3 class="anchored" data-anchor-id="what-i-work-on-moslty"><strong>What I work on (moslty)</strong></h3>
-<p>I’m part of a team that develops online training modules and offers support to researchers working with omics and clinical data. I focus on helping people build the skills they need to manage and analyze data in a structured and reproducible way.I regularly teach workshops and create online training materials on tools like:</p>
-<ul>
-<li><strong>Git &amp; GitHub</strong> - for version control and collaboration</li>
-<li><strong>Snakemake &amp; Nextflow</strong> - for workflow automation</li>
-<li><strong>Docker &amp; Conda</strong> - for containerization and environment management</li>
-<li><strong>Cookiecutter</strong> - for reproducible project templates</li>
-<li><strong>Shiny Apps</strong> - for interactive data visualization</li>
-<li><strong>Data analysis</strong> – focused on omics (transcriptomics and genomics) and clinical data</li>
-</ul>
-</section>
-<section id="what-i-do-day-to-day" class="level2">
-<h2 class="anchored" data-anchor-id="what-i-do-day-to-day">What I Do Day-to-Day</h2>
-<p>Want to know what my day usually looks like? I spend most of it building and testing training modules, working on containerized apps, and helping researchers run their data analysis more smoothly — especially on HPC systems.</p>
-<p>That means writing code, creating example workflows, troubleshooting environments, and turning all of that into hands-on materials others can actually learn from. I also run workshops and help maintain the infrastructure behind our training platform, making sure everything stays up-to-date and reproducible. All materials I create — from workshops to web-based exercises — are freely available on the <a href="https://hds-sandbox.github.io/">project’s website</a>.</p>
-<section id="training-modules-apps---what-we-build-in-the-sandbox" class="level3">
-<h3 class="anchored" data-anchor-id="training-modules-apps---what-we-build-in-the-sandbox"><strong>Training modules &amp; Apps - What we build in the Sandbox</strong></h3>
-<p>As part of the national <strong>Health Data Science Sandbox Project</strong>, we create containerized apps and training modules that combine notebooks, coding exercises, and interactive tutorials. Everything is hosted on GitHub Pages using Quarto, and fully version-controlled — so it’s easy to track updates, stay consistent, and share improvements.</p>
-<p>Here are some of the key modules I work on:</p>
-<section id="computational-rdm" class="level4">
-<h4 class="anchored" data-anchor-id="computational-rdm"><strong><a href="https://hds-sandbox.github.io/RDM_biodata_course/">Computational RDM</a></strong></h4>
-<p>This one’s all about helping omics researchers improve how they manage and organize their data and projects on HPCs. Topics:</p>
-<ul>
-<li>Research Data Management (RDM) concepts<br>
-</li>
-<li>Best practices in data organization and integration<br>
-</li>
-<li>Tools to support effective data management</li>
-</ul>
-<p><strong>Why it matters?</strong> Getting your data management right early on saves you from headaches later — especially when dealing with big or complex datasets.</p>
-</section>
-<section id="hpc-best-practices" class="level4">
-<h4 class="anchored" data-anchor-id="hpc-best-practices"><strong><a href="https://hds-sandbox.github.io/HPC-lab/">HPC Best Practices</a></strong></h4>
-<p>A go-to resource for researchers working on HPC, building workflows and pipelines, or running data science projects — all with reproducibility in mind. Topics:</p>
-<ul>
-<li>Workflow management using <strong>Snakemake</strong> and <strong>Nextflow</strong><br>
-</li>
-<li>Using community-driven pipelines like <strong>nf-core</strong><br>
-</li>
-<li>Building efficient and scalable workflows to reduce data management time<br>
-</li>
-<li>Software management (package managers and containers)</li>
-</ul>
-</section>
-<section id="containerized-apps" class="level4">
-<h4 class="anchored" data-anchor-id="containerized-apps"><strong>Containerized Apps</strong></h4>
-<p>We also build Docker-based apps that are portable, reproducible, and system-agnostic — meaning they run pretty much anywhere. While they’re used mostly on Danish HPC systems, everything’s open and available on GitHub and can be pulled directly from Docker Hub so others can easily deploy them too.</p>
-<ul>
-<li><strong><a href="https://hds-sandbox.github.io/modules/">Genomics App</a></strong>: Tools and tutorials for genomic data analysis.<br>
-</li>
-<li><strong><a href="https://hds-sandbox.github.io/modules/">Transcriptomics App</a></strong>: Tools for working with transcriptomics data.</li>
-</ul>
 
 
-</section>
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    // Ensure there is a toggle, if there isn't float one in the top right
-    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-      const i = window.document.createElement("i");
-      i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
-    }
-    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
