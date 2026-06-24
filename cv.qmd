@@ -38,12 +38,15 @@ These areas drive my passion for developing innovative, reproducible, and open s
 
 I am currently involved in teaching **PhD students and researchers** practical aspects of:  
 
+- **HPC onboarding** (High-Performance Computing) to academic danish platforms
 - **Pipeline development** (Snakemake, Nextflow)  
 - **Software management** (Git, Docker, Conda, GitHub)  
-- **HPC concepts** (High-Performance Computing)  
-- **Genomics**  
-- **Transcriptomics**
+- **AI for biomedical researchers ** (with a focus on LMMs)
 - **Research Data Management (RDM)**  
+- **Omics** 
+    - **Genomics**  
+    - **Transcriptomics**
+
 
 #####  Past Teaching Engagements
 
@@ -51,6 +54,13 @@ I am currently involved in teaching **PhD students and researchers** practical a
 - **Interaction design (KOMIT)’ on the interaction and usability of user interfaces**: Bachelor course - 2019 
 
 **My teaching philosophy**: I emphasize hands-on, project-based learning, where researchers actively engage with the tools they will use in their day-to-day work. I believe in breaking down complex concepts into simple, manageable parts and gradually building on them to promote deeper understanding and confidence.
+
+## 🎙️ Communication 
+
+Talks and workshops at conferences and other scientific events. 
+
+- **Reproducibility in the Sandbox project**. National Reproducibility & Research Data Event: What matters to researchers and research support?, *June 2026*.
+- **How I learned to stop worrying and love RDM**. Health Data Science Day, *August 2024*
 
 ## 🤝 Organizational tasks 
 
