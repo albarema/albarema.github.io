@@ -1,53 +1,66 @@
 ---
-format: 
+format:
     html:
         page-layout: full
         toc: false
-        theme: cosmo
 ---
 
-## **What I do** 
+## **What I do**
 
-I'm part  of a team that develops online training modules and offers support to researchers working with omics and clinical data. I focus on helping people build the skills they need to manage and analyze data in a structured and reproducible way.I regularly teach workshops and create online training materials on tools like:
+I'm part of a team that develops online training modules and offers support to researchers working with omics and clinical data. My work spans four connected areas: **building tools**, **consulting**, **advising research groups**, and **teaching** — all in service of making data science more reproducible, transparent, and FAIR.
 
-- **Git & GitHub** - for version control and collaboration
-- **Snakemake & Nextflow** - for workflow automation
-- **Docker & Conda** - for containerization and environment management
-- **Cookiecutter** - for reproducible project templates
-- **Shiny Apps** - for interactive data visualization 
-- **Data analysis** – focused on omics (transcriptomics and genomics) and clinical data
+All materials I create — from workshops to web-based exercises — are freely available on the [project's website](https://hds-sandbox.github.io/).
 
+::: {.panel-tabset}
 
-Want to know what my day usually looks like? I spend most of it building and testing training modules, working on containerized apps, and helping researchers run their data analysis more smoothly — especially on HPC systems.
+## <i class="bi bi-code-slash me-2"></i>App & Tool Development
 
-That means writing code, creating example workflows, troubleshooting environments, and turning all of that into hands-on materials others can actually learn from. I also run workshops and help maintain the infrastructure behind our training platform, making sure everything stays up-to-date and reproducible. All materials I create — from workshops to web-based exercises — are freely available on the [project's website](https://hds-sandbox.github.io/).
+As part of the national **Health Data Science Sandbox Project**, I collaborate on building and maintaining containerized apps, Shiny tools, and training infrastructure used across Danish HPC systems — building training modules that combine notebooks, coding exercises, and interactive tutorials, all hosted on GitHub Pages using Quarto and fully version-controlled. A look at some of the projects I've been part of:
 
+::: {.app-grid}
+[Health Data Science](https://hds-sandbox.github.io/modules/#sandbox-hpc){.app-button}
 
-### **Training modules & Apps - What we build in the Sandbox**
-As part of the national **Health Data Science Sandbox Project**, we create containerized apps and training modules that combine notebooks, coding exercises, and interactive tutorials. Everything is hosted on GitHub Pages using Quarto, and fully version-controlled — so it's easy to track updates, stay consistent, and share improvements.
+[Genomics](https://hds-sandbox.github.io/modules/#genomics){.app-button}
 
-Here are some of the key modules I work on:
+[Transcriptomics](https://hds-sandbox.github.io/modules/#transcriptomics){.app-button}
+:::
 
-#### **[Computational RDM](https://hds-sandbox.github.io/RDM_biodata_course/)**
-This one’s all about helping omics researchers improve how they manage and organize their data and projects on HPCs. Topics: 
+<a class="app-button-full" href="https://hub.docker.com/u/hdssandbox"><i class="bi bi-box-seam me-2"></i>Browse all our apps on Docker Hub</a>
 
-- Research Data Management (RDM) concepts  
-- Best practices in data organization and integration  
-- Tools to support effective data management  
-  
-**Why it matters?** Getting your data management right early on saves you from headaches later — especially when dealing with big or complex datasets.
+## <i class="bi bi-chat-dots me-2"></i>Consulting
 
-#### **[HPC Best Practices](https://hds-sandbox.github.io/HPC-lab/)**
+I provide 1:1 and team consultations to researchers who need hands-on help getting their analyses running reliably — choosing the right tools, troubleshooting HPC and containerized environments, and setting up pipelines that will keep working long after the initial setup. The goal is always the same: leave the group more self-sufficient than I found them.
 
-A go-to resource for researchers working on HPC, building workflows and pipelines, or running data science projects — all with reproducibility in mind. Topics: 
+## <i class="bi bi-lightbulb me-2"></i>Research Advising
 
-- Workflow management using **Snakemake** and **Nextflow**  
-- Using community-driven pipelines like **nf-core**  
-- Building efficient and scalable workflows to reduce data management time  
-- Software management (package managers and containers)
-  
-#### **Containerized Apps**
-We also build Docker-based apps that are portable, reproducible, and system-agnostic — meaning they run pretty much anywhere. While they're used mostly on Danish HPC systems, everything's open and available on GitHub and can be pulled directly from Docker Hub so others can easily deploy them too.
+Beyond day-to-day troubleshooting, I advise research groups on the bigger picture: structuring projects for Research Data Management (RDM) and FAIR compliance, planning reproducible workflows before a project starts, and thinking through how data and tools will be shared, reused, and maintained over time.
 
-- **[Genomics App](https://hds-sandbox.github.io/modules/)**: Tools and tutorials for genomic data analysis.  
-- **[Transcriptomics App](https://hds-sandbox.github.io/modules/)**: Tools for working with transcriptomics data.  
+## <i class="bi bi-mortarboard me-2"></i>Teaching & Training
+
+I regularly teach workshops and contribute to creating online training materials — covering both practical tools like **Git & GitHub**, **Snakemake & Nextflow**, **Docker & Conda**, **Cookiecutter**, and **Shiny Apps**, and specific topics in **genomics**, **transcriptomics**, and clinical data — increasingly with a focus on **AI tools** throughout.
+
+::: {.project-card}
+#### [Computational RDM](https://hds-sandbox.github.io/RDM_biodata_course/)
+Helping omics researchers improve how they manage and organize their data and projects on HPCs: RDM concepts, best practices in data organization, and tools to support effective data management.
+:::
+
+::: {.project-card}
+#### [HPC Best Practices](https://hds-sandbox.github.io/HPC-lab/)
+A go-to resource for researchers working on HPC, building workflows and pipelines, or running data science projects — all with reproducibility in mind: **Snakemake**, **Nextflow**, community pipelines like **nf-core**, and software management.
+:::
+
+::: {.project-card}
+#### AI for Biomedical Researchers <span class="badge-active">Active</span>
+A module I'm currently building to help researchers understand and apply AI tools — including LLMs — responsibly in their day-to-day biomedical research: practical use of LLMs, capabilities and limitations, and reproducible use of AI in scientific analysis.
+:::
+
+Beyond the Sandbox modules, I teach **PhD students and researchers** practical aspects of HPC onboarding, pipeline development, software management, and Research Data Management (RDM).
+
+##### Past Teaching Engagements
+
+- **Analysis of large-scale datasets**: PhD course - 2021
+- **Interaction design (KOMIT) on the interaction and usability of user interfaces**: Bachelor course - 2019
+
+**My teaching philosophy**: I emphasize hands-on, project-based learning, where researchers actively engage with the tools they will use in their day-to-day work. I believe in breaking down complex concepts into simple, manageable parts and gradually building on them to promote deeper understanding and confidence.
+
+:::

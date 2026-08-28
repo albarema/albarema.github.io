@@ -7,11 +7,11 @@ website:
       - href: index.qmd
         text: Alba Refoyo Martinez
       - href: projects.qmd
-        text: Projects
+        text: Work
       - href: cv.qmd
         text: CV
       - href: publications.qmd
-        text: My research
+        text: Publications
     right:
       - icon: linkedin
         href: https://dk.linkedin.com/in/albarefoyo
@@ -21,6 +21,8 @@ website:
         aria-label: GitHub
 format:
   html:
-    theme: cosmo
+    theme:
+      dark: darkly
+      light: cosmo
     css: css/styles.css
     toc: false

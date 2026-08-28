@@ -7,62 +7,39 @@ format:
 bibliography: myref.bib
 ---
 
-## 📄 **Download my CV**
+## <i class="bi bi-download me-2"></i>**Download my CV**
 
-<a href="./ARMCV.pdf" download="ARMCV.pdf"> 
-    <button style="border: 2px solid lightblue; padding: 5px 10px; border-radius: 5px;">
-    Download here
-    </button>
-</a>
+<a class="cv-download" href="./ARMCV.pdf" download="ARMCV.pdf">Download here</a>
 
 
 <div style="font-size: 0.9em;">
-## 📘 **Education**
-| 🎓 **Degree**              | 🏛️ **Institution**                          | 📅 **Year** |
+## <i class="bi bi-mortarboard me-2"></i>**Education**
+| **Degree**              | **Institution**                          | **Year** |
 |----------------------------|---------------------------------------------|-------------|
 | **PhD in Bioinformatics** | **University of Copenhagen** | **2019 - 2021** |
 | **Master in Bioinformatics**    | **University of Copenhagen**             | **2017 - 2019** |
 | **BSc in Health Biology**       | **University of Alcalá de Henares**       | **2013 - 2017** |
-|                             | *Erasmus Program at Vrije Universiteit Brussels* | **2006 - 2017** |
-<div>
+|                             | *Erasmus Program at Vrije Universiteit Brussels* | **2016 - 2017** |
 
-## 🌐 **Interests**
-- **Health Data Science**  
-- **Population Genomics**  
-- **Research Data Management**  
+</div>
+
+## <i class="bi bi-compass me-2"></i>**Interests**
+- **Health Data Science**
+- **Population Genomics**
+- **Research Data Management**
+- **AI tools for research** — exploring how LLMs and AI-assisted workflows can support biomedical researchers
 
 These areas drive my passion for developing innovative, reproducible, and open solutions that help the scientific community. I am committed to creating open-access, community-driven projects where knowledge and tools are shared freely.
 
 
-## 🧑‍🏫 **Teaching & Training**
-
-I am currently involved in teaching **PhD students and researchers** practical aspects of:  
-
-- **HPC onboarding** (High-Performance Computing) to academic danish platforms
-- **Pipeline development** (Snakemake, Nextflow)  
-- **Software management** (Git, Docker, Conda, GitHub)  
-- **AI for biomedical researchers ** (with a focus on LMMs)
-- **Research Data Management (RDM)**  
-- **Omics** 
-    - **Genomics**  
-    - **Transcriptomics**
-
-
-#####  Past Teaching Engagements
-
-- **Analysis of large-scale datasets**: PhD course - 2021
-- **Interaction design (KOMIT)’ on the interaction and usability of user interfaces**: Bachelor course - 2019 
-
-**My teaching philosophy**: I emphasize hands-on, project-based learning, where researchers actively engage with the tools they will use in their day-to-day work. I believe in breaking down complex concepts into simple, manageable parts and gradually building on them to promote deeper understanding and confidence.
-
-## 🎙️ Communication 
+## <i class="bi bi-mic me-2"></i>Communication
 
 Talks and workshops at conferences and other scientific events. 
 
 - **Reproducibility in the Sandbox project**. National Reproducibility & Research Data Event: What matters to researchers and research support?, *June 2026*.
 - **How I learned to stop worrying and love RDM**. Health Data Science Day, *August 2024*
 
-## 🤝 Organizational tasks 
+## <i class="bi bi-people me-2"></i>Organizational tasks
 
 I have participated in several events organizing, supporting the planning and coordination of scientific workshops, seminars, and community initiatives.
 
@@ -71,9 +48,7 @@ I have participated in several events organizing, supporting the planning and co
 |----------------------------|---------------------------------------------|-------------|
 | Evolutionary and Population Genetics Conference (EPIC) | GWAS session chair | 2023 |
 | Evolutionary and Population Genetics Conference (EPIC) | Organizer  | 2022 |
-| GLOBE PhD Day | Globe PhD Committee member | 2022 | 
-<div>
+| GLOBE PhD Day | Globe PhD Committee member | 2022 |
 
-## 🌍 **About Me**
-Beyond my professional work, I have a deep appreciation for nature and find peace in hiking. In 2010, I had the opportunity to take part in an exceptional educational and cultural exchange project called [*The Ruta Quetzal*](https://www.rutaquetzal.com/), which sparked my passion for hiking. My love for travel sparks my curiosity, allowing me to explore diverse cultures and gain new perspectives.
+</div>
 
